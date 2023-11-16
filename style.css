@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: white;
+}
+#head{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: -250px;
+
+}
+#head h1{
+    font-size: 80px;
+    padding-top: 30px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+#profile{
+    display: block;
+    width:50%;
+}
+#profile p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+ h2{
+    font-size: 35px;
+}
+#skillsHeader img, 
+#profileHeader img,
+#educationHeader img,
+#projectHeader img,
+#diaryHeader img,
+#chatHeader img,
+#slrHeader img,
+#bankHeader img{
+    width: 80px;
+} 
+#skillsHeader h2, 
+#profileHeader h2,
+#educationHeader h2,
+#projectHeader h2,
+#diaryHeader h2,
+#chatHeader h2,
+#slrHeader h2,
+#bankHeader h2{
+    display: inline-block; 
+    margin-left: 10px;
+    margin-bottom: -10px;
+
+}
+
+#second-section, #skills{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+#last-section{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+#educationHeader, 
+#schools {
+    padding: 30px;
+}
+#skillsHeader, 
+#soft-and-technical-skills{
+    padding: 65px;
+}
+#projectHeader{
+    padding: 51.5px;
+}
+#github-image{
+    padding: 30px;
+    width: 80px;
+}
+
